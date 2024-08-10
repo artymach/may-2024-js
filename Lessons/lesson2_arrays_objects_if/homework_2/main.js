@@ -222,13 +222,14 @@ if (num1 > num2) {
 }
 
 //--------------------------------------------------------
+
 let x;
 x = 0;// підставляємо falsy-значення ('',null,undefined,NaN,false і т.д) в змінну x
 if (!x) {
     x = 'default';
 console.log(x);
 } else {
-    console.log('Result not found')
+    console.log('Result not found');
 }
 
 //--------------------------------------------------------
