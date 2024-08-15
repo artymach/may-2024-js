@@ -24,9 +24,12 @@ while (x < 21) {
 document.write(`<p>---------------------------5----------------------------</p>`)
 
 let listOfItems = ['html', 'css', 'javascript', 'mysql', 'mongodb', 'react', 'angular', 'node.js'];
-for (let listOfItems = 0; listOfItems < 1; listOfItems++) {
-    document.write('<ul> <li>html</li> <li>css</li> <li>javascript</li> <li>mysql</li> <li>mongodb</li> <li>react</li> <li>angular</li> <li>node.js</li> </ul>');
+document.write(`<ul>`)
+for (let b = 0; b < listOfItems.length; b++) {
+    let listOfItem = listOfItems[b];
+    document.write(`<li>${listOfItem}</li>`);
 }
+document.write(`</ul>`)
 document.write(`<p>---------------------------6---------------------------</p>`)
 let products = [
     {
@@ -90,5 +93,8 @@ while (i < users.length) {
 console.log(arrTrue);
 console.log(arrFalse);
 console.log(arrAge);
+
+
+
 
 
