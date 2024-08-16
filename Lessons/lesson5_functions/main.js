@@ -91,7 +91,7 @@ array([123, -234, 'asd', true, false]);
 
 // ----------------------------------------------------------------------------------------------------
 // створити функцію яка приймає масив об'єктів з наступними полями id,name,age , та виводить їх в документ. Для кожного об'єкту окремий блок.
-let arrayOfObjects=(objects) => {
+let arrayOfObjects = (objects) => {
     for (const object of objects) {
         document.write(`<div>${object.id} ${object.name} ${object.age}</div>`)
     }
@@ -107,7 +107,7 @@ arrayOfObjects([
 // ----------------------------------------------------------------------------------------------------
 //створити функцію яка повертає найменьше число з масиву
 
-let minNumArray =(array)=> {
+let minNumArray = (array) => {
     let min = array[0];
     for (let i = 1; i < array.length; i++) {
         if (array[i] < min) {
@@ -123,7 +123,7 @@ console.log(minNumArray(numArray));
 // -----------------------------------------------------------------------------------------------------
 //створити функцію sum(arr) яка приймає масив чисел, сумує значення елементів масиву та повертає його. Приклад sum([1,2,10]) //->13
 
-let sum =(arr) =>{
+let sum = (arr) => {
     let arrNum = 0;
     for (let number of arr) {
         arrNum = arrNum + number;
@@ -134,7 +134,7 @@ let sum =(arr) =>{
 console.log(sum([1, 2, 10]));
 
 //------------------------------------------------------------------------------------------------------
-let swap=(arr, index1, index2)=> {
+let swap = (arr, index1, index2) => {
     let bufferArray = arr[index1];
     arr[index1] = arr[index2];
     arr[index2] = bufferArray;
@@ -148,7 +148,7 @@ console.log(swap([11, 22, 33, 44], 0, 1));
 //- Написати функцію обміну валюти exchange(sumUAH,currencyValues,exchangeCurrency)
 // Приклад exchange(10000,[{currency:'USD',value:25},{currency:'EUR',value:42}],'USD') // => 400
 
-let exchange=(sumUAH, currencyValues, exchangeCurrency)=> {
+let exchange = (sumUAH, currencyValues, exchangeCurrency) => {
     for (let i = 0; i < currencyValues.length; i++) {
         if (currencyValues[i].currency === exchangeCurrency) {
             return sumUAH / currencyValues[i].value;
