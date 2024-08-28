@@ -126,33 +126,33 @@ console.log(weather)
 
 // ------------------logical branching----------------
 
-// let x = 10;
-// if (x !== 0) {
-//     console.log('Вірно');
-// } else {
-//     console.log('Невірно');
-// }
-//
-// }let x = 1;
-// if (x !== 0) {
-//     console.log('Вірно');
-// } else {
-//     console.log('Невірно');
-// }
-//
-// let x = 0;
-// if (x !== 0) {
-//     console.log('Вірно');
-// } else {
-//     console.log('Невірно');
-// }
-//
-// let x = -3;
-// if (x !== 0) {
-//     console.log('Вірно');
-// } else {
-//     console.log('Невірно');
-// }
+let a = 10;
+if (a !== 0) {
+    console.log('Вірно');
+} else {
+    console.log('Невірно');
+}
+
+let b = 1;
+if (b !== 0) {
+    console.log('Вірно');
+} else {
+    console.log('Невірно');
+}
+
+let c = 0;
+if (c !== 0) {
+    console.log('Вірно');
+} else {
+    console.log('Невірно');
+}
+
+let d = -3;
+if (d !== 0) {
+    console.log('Вірно');
+} else {
+    console.log('Невірно');
+}
 
 // -----------------------------------
 
@@ -227,7 +227,7 @@ let x;
 x = 0;// підставляємо falsy-значення ('',null,undefined,NaN,false і т.д) в змінну x
 if (!x) {
     x = 'default';
-console.log(x);
+    console.log(x);
 } else {
     console.log('Result not found');
 }
