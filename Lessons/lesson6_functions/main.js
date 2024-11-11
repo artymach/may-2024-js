@@ -14,7 +14,7 @@ for (let string of arrStr) {
 }
 console.log('-------------------------------');
 
-// Перевести до нижнього регістру настипні стрінгові значення
+// Перевести до нижнього регістру наступні стрінгові значення
 // 'HELLO WORLD', 'LOREM IPSUM', 'JAVASCRIPT IS COOL'
 let strArr = ['HELLO WORLD', 'LOREM IPSUM', 'JAVASCRIPT IS COOL'];
 for (let string of strArr) {
@@ -52,7 +52,7 @@ console.log(arrNumToStr);
 
 console.log('-------------------------------');
 
-// створити функцію sortNums(array,direction), яка прймає масив чисел, та сортує його від більшого до меньшого, або навпаки в залежності від значення аргументу direction.
+// створити функцію sortNums(array,direction), яка приймає масив чисел, та сортує його від більшого до меньшого, або навпаки в залежності від значення аргументу direction.
 // let nums = [11,21,3];
 // sortNums(nums,'ascending') // [3,11,21]
 // sortNums(nums,'descending') // [21,11,3]
